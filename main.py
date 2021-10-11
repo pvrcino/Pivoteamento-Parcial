@@ -236,6 +236,7 @@ def menu(escolha):
   elif (escolha == 4):
     clear()
     print("Programa finalizado!")
+    exit()
   #Caso a escolha outro numero qualquer, limpa o terminal e imprime o menu novamente.
   else:
     clear()
